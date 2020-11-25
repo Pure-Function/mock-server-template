@@ -1,0 +1,33 @@
+{
+  "name": "mock-server-template",
+  "version": "1.0.0",
+  "description": "simple template for standalone mock server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev:server-debug": "node --inspect=5858 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pure-Function/mock-server-template.git"
+  },
+  "keywords": [
+    "@funq/mock-server",
+    "mock-server",
+    "template",
+    "javascript",
+    "open-api",
+    "@funq"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pure-Function/mock-server-template/issues"
+  },
+  "homepage": "https://github.com/Pure-Function/mock-server-template#readme",
+  "dependencies": {
+    "@funq/mock-server": "0.0.1"
+  },
+  "type": "module"
+}
